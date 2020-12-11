@@ -41,9 +41,8 @@ public class TrimUtil {
 									String val = String.valueOf(value);
 									if (val != null 
 											&& !val.trim().equalsIgnoreCase("")) {
-										
+										field.set(args, val.trim());
 									}
-									field.set(args, val.trim());
 								}
 							} catch (Exception e) {
 								log.info("~~~~~~~~TrimUtil.trim~~~~~~~~~"+ e.getMessage(),e);
