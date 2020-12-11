@@ -6,3 +6,6 @@ Trim all string attribute for Object in two level to prevent blank error.
 
 Simple but helpful.
 简单但实用
+
+注：
+后期将优化成在pom文件依赖就可以自动去掉左右空格
