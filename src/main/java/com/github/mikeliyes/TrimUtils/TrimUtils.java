@@ -1,16 +1,11 @@
-package com.mike.TrimUtil.common;
+package com.github.mikeliyes.TrimUtils;
 
 import java.lang.reflect.Field;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
 
 /**
  * 将对象的字符串参数去掉头尾空格
  */
-public class TrimUtil {
-	private static Log log = LogFactory.getLog(TrimUtil.class);
+public class TrimUtils {
 
 	/**
 	 * 将对象的字符串参数去掉头尾空格
@@ -45,7 +40,7 @@ public class TrimUtil {
 									}
 								}
 							} catch (Exception e) {
-								log.info("~~~~~~~~TrimUtil.trim~~~~~~~~~"+ e.getMessage(),e);
+
 						    }
 				        }	
 			}
