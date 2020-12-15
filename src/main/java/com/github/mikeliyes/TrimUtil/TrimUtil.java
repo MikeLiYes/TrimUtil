@@ -1,6 +1,8 @@
 package com.github.mikeliyes.TrimUtil;
 
 import java.lang.reflect.Field;
+import java.util.Collection;
+import java.util.Map;
 
 
 /**
@@ -14,9 +16,10 @@ public class TrimUtil {
 	 * @return
 	 */
 	public static void trim(Object args) {
-		 if (args == null) {
+		//参数为空，参数为集合都不处理
+		if (args == null || args instanceof Collection || args instanceof Map) {
 			 return;
-		 }
+		}
 		
 		Class clazz = args.getClass();
 		
