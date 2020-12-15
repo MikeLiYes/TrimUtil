@@ -6,11 +6,11 @@
 
   <groupId>com.github.mikeliyes</groupId>
   <artifactId>TrimUtil</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 
   <name>TrimUtil</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/MikeLiYes/TrimUtils</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,10 +23,10 @@
   
   <scm>
     <connection>scm:git:https://github.com/MikeLiYes/TrimUtil.git</connection>
-    <url>scm:https://github.com/MikeLiYes/TrimUtil.git</url>
+    <url>git@https://github.com/MikeLiYes/TrimUtil.git</url>
     <developerConnection>scm:https://github.com/MikeLiYes/TrimUtil.git</developerConnection>
     <tag>HEAD</tag>
-   </scm>
+  </scm>
 
   <developers>
 	    <developer>

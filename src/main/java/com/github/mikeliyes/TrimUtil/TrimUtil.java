@@ -14,8 +14,12 @@ public class TrimUtil {
 	 * @return
 	 */
 	public static void trim(Object args) {
+		 if (args == null) {
+			 return;
+		 }
 		
 		Class clazz = args.getClass();
+		
 		Field[]	fields = clazz.getDeclaredFields();
 		
 		if (fields == null || fields.length == 0) {
