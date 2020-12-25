@@ -12,8 +12,7 @@ public class TrimUtil {
 
 	/**
 	 * 将对象的字符串参数去掉头尾空格
-	 * @param args
-	 * @return
+	 * @param args 参数
 	 */
 	public static void trim(Object args) {
 		//参数为空，参数为集合都不处理

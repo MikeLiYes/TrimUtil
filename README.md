@@ -9,3 +9,6 @@ Simple but helpful.
 
 注：
 后期将优化成在pom文件依赖就可以自动去掉左右空格
+
+记录：
+eclipse上传maven：run as -> run configuration -> maven build-> 右键new -> browse Workspace选择当前项目路径：${workspace_loc:/TrimUtil} ->goals输入clean install source:jar javadoc:jar gpg:sign deploy -e
