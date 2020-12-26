@@ -7,6 +7,13 @@ Trim all string attribute for Object in two level to prevent blank error.
 Simple but helpful.
 简单但实用
 
+maven : 
+<dependency>
+  <groupId>com.github.mikeliyes</groupId>
+  <artifactId>TrimUtil</artifactId>
+  <version>0.0.1</version>
+</dependency>
+
 注：
 暂时不支持map对象
 not support map
